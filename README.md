@@ -29,7 +29,7 @@ export DATAH_DEST="/Volumes/industrial_age/workspace/staging/unprocessed/"
 export DATAH_INTERVAL=2
 ```
 
-This will copy .mat, .rhd, .int and .daq files, wait 2 minutes before scans, and copy files from `/Volumes/fiber_data/` to `/Volumes/industrial_age/workspace/staging/unprocessed/`
+This will copy .mat, .rhd, .int and .daq files, wait 2 minutes before scans, and copy files from `/Volumes/fiber_data/` to `/Volumes/industrial_age/workspace/staging/unprocessed/`.  If you wanted to copy only .wav files for instance, change `DATAH_FILETYPES` to `"(wav)"`, or `"(wav|mp3)"` to copy .mp3 as well.
 
 
 
